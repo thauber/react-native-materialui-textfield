@@ -122,6 +122,7 @@ export default class Label extends PureComponent {
     let containerStyle = {
       position: 'absolute',
       top,
+      zIndex: 1,
     };
 
     return (
